@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import pickle
 
-dataset = pd.read_csv('ili.csv')
+dataset = pd.read_csv('https://raw.githubusercontent.com/abhinavsagar/machine-learning-deployment/master/predict%20sales/sales.csv')
 
 dataset['rate'].fillna(0, inplace=True)
 
